@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 if (netInfo != null) {
                     if (netInfo.isConnected()) {
                         WebView myWebView = (WebView) findViewById(R.id.webview);
-                        myWebView.loadUrl("http://192.168.4.1/L");
+                        myWebView.loadUrl("http://192.168.4.1/Hi");
                         myWebView.setWebViewClient(new WebViewClient());
                     } else {
                         Toast.makeText(MainActivity.this, "Not Connected Internet", Toast.LENGTH_SHORT).show();
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 if (netInfo != null) {
                     if (netInfo.isConnected()) {
                         WebView myWebView = (WebView) findViewById(R.id.webview);
-                        myWebView.loadUrl("http://192.168.4.1/H");
+                        myWebView.loadUrl("http://192.168.4.1/Lo");
                         myWebView.setWebViewClient(new WebViewClient());
                     } else {
                         Toast.makeText(MainActivity.this, "Not Connected Internet", Toast.LENGTH_SHORT).show();
